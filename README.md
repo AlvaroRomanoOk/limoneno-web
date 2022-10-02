@@ -1,7 +1,7 @@
 In Working...
 
 Las actualizaciones se catalogarán de la siguiente manera:
-### ##/##/2022 | Pre-Alpha-#
+#### ##/##/2022 | Pre-Alpha-#
 
 30/09/2022 | V: Pre-alpha-0 ==> Se crearon los archivos principales, se le dió formato a la página, y se realizó el header.
 
