@@ -6,8 +6,8 @@ header {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    line-height: 70px;
-    background: #FFF;
+    line-height: 80px;
+    background-color: #FFF;
 }
 
 header div {
@@ -57,3 +57,7 @@ header h1 {
     letter-spacing: 5px;
     color: #000;
 }
+
+#relleno {
+    height: 80px;  
+  }
