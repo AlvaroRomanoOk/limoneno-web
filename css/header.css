@@ -1,13 +1,13 @@
 header {
     display: flex;
-    height: 80px;
+    min-height: 70px;
     padding-left: 6%;
     padding-right: 6%;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    line-height: 80px;
     background-color: #FFF;
+    line-height: 70px;
 }
 
 header div {
@@ -15,17 +15,14 @@ header div {
     justify-content: space-between;
 }
 
-header a h1 {
-    line-height: 0px;
-}
-
-header a h1 img {
-    width: 180px;
+header h1 a img {
+    display: table-cell;
+    width: 185px;
     padding-right: 12px;
 }
 
 header nav {
-    word-spacing: 10px;
+    word-spacing: 12px;
 }
 
 header a {
@@ -33,9 +30,9 @@ header a {
 }
 
 header nav a {
-    font-size: 18px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px;
     color: #000;
-    font-family: 'Roboto', sans-serif;
 }
 
 header nav a {
@@ -52,12 +49,21 @@ header nav a:hover, a:focus {
     color: #0098da;
 }
 
-header h1 {
-    font-size: 30px;
-    letter-spacing: 5px;
-    color: #000;
+body {
+    background: #000;
 }
 
-#relleno {
-    height: 80px;  
-  }
+@media (max-width:700px){
+    header {
+        flex-direction: column;
+    }
+
+    header h1 a img {
+        width: 170px;
+        padding-top: 15%;
+    }
+
+    header nav a {
+        font-size: 14px;
+    }
+}
