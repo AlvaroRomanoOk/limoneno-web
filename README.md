@@ -33,7 +33,7 @@ Sistema de la plantilla
 Security
 ========
 
-Por favor, lee [SECURITY.md](./SECURITY.md) información sobre la política de divulgación y contacto.
+Por favor, lee [SECURITY.md](SECURITY.md) información sobre la política de divulgación y contacto.
 
 License
 =======
