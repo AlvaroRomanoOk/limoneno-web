@@ -1,7 +1,41 @@
-# In Working...
+LIMONENO Web | limoneno.netlify.app
+================
 
-## Web Updates
+[![Netlify Status](https://api.netlify.com/api/v1/badges/07af5a2a-509f-46b3-b0ff-f2b34579d468/deploy-status)](https://app.netlify.com/sites/limoneno/deploys)
 
-=> 01/10/2022 | V: Pre-alpha-1 ==> Se utilizó tecnología JS para ocultar las anclas de las url's. Se crearon las maquetas para los sliders, utilizandose las tecnologías  de HTML, CSS y JavaScript. Se creó un repositorio en GitHub, y se creo la administración de versiones locales y en línea con Git. Se habilitó la pre-visualización de    la página con GitHub Pages.
+Una web simple, para acompañar al proyecto de 4° "U" de la DDVS, "LIMONENO"
 
-=> 30/09/2022 | V: Pre-alpha-0 ==> Se crearon los archivos principales, se le dió formato a la página, y se realizó el header.
+Organización del proyecto
+====================
+
+* **Tareas/Cambios** para implementar o que han sido implementados recientemene:
+  * Sitio de una sola página
+  * Completar la página de inicio
+  * Añadir formulario de contacto
+  * Añadir formulario de pago
+
+
+Arquitectura/Filosofías
+=========================
+
+* HTML, CSS, y JS
+* Sistema de una plantilla simple basada en HTML
+* Marcos mínimos (mantenerlo simple)
+* Web-frist
+
+
+Sistema de la plantilla
+=================
+
+* Basada en HTML
+* La pagina se aloja en master como index.html
+
+Security
+========
+
+Por favor, lee [SECURITY.md](./SECURITY.md) información sobre la política de divulgación y el contacto.
+
+License
+=======
+
+Este proyecto posee la [MIT license](LICENSE.md).

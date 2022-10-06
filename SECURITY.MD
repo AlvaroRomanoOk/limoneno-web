@@ -1,0 +1,3 @@
+# Política de seguridad
+
+Para cualquier problema relacionado con la seguridad, **no abras un problema público de GitHub**. En su lugar, envíamelo por correo electrónico a [alvaroromanook@gmail.com](mailto:alvaroromanook@gmail.com). Proporcionaré una evaluación inicial de los informes de seguridad dentro de las 48 horas y deberé aplicar parches dentro de las 2 semanas (además, no dude en contribuir con una solución para el problema).
