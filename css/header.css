@@ -8,6 +8,7 @@ header {
     text-align: center;
     background-color: #FFF;
     line-height: 70px;
+    box-shadow: 0px 2px 3px gray;
 }
 
 header div {
@@ -15,10 +16,14 @@ header div {
     justify-content: space-between;
 }
 
+header h1 a {
+    display: table-cell;
+    display: flex;
+}
+
 header h1 a img {
     display: table-cell;
-    width: 185px;
-    padding-right: 12px;
+    width: 180px;
 }
 
 header nav {
@@ -49,13 +54,24 @@ header nav a:hover, a:focus {
     color: #0098da;
 }
 
+@media (max-width:900px){
+
+    header h1 a img {
+        width: 140px;
+    }
+
+    header nav a {
+        font-size: 16px;
+    }
+}
+
 @media (max-width:700px){
     header {
         flex-direction: column;
     }
 
     header h1 a img {
-        width: 180px;
+        width: 140px;
         padding-top: 15%;
     }
 
