@@ -30,12 +30,12 @@ Sistema de la plantilla
 * Basada en HTML
 * La pagina se aloja en master como index.html
 
-Security
+Seguridad
 ========
 
 Por favor, lee [SECURITY.md](SECURITY.md) información sobre la política de divulgación y contacto.
 
-License
+Licencia
 =======
 
 Este proyecto posee la [MIT license](LICENSE.md).
