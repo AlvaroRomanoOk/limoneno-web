@@ -2,7 +2,7 @@ let slider = document.querySelector(".slider-contenedor")
 let sliderIndividual = document.querySelectorAll(".contenido-slider")
 let contador = 1;
 let width = sliderIndividual[0].clientWidth;
-let intervalo = 3000;
+let intervalo = 3500;
 
 window.addEventListener("resize", function(){
     width = sliderIndividual[0].clientWidth;
