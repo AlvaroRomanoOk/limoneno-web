@@ -1,0 +1,40 @@
+#proyecto {
+    background-color: #273445;
+    color: #FFF;
+    padding: 80px 10em;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: 99;
+}
+
+#particles-js {
+    height: 1355px;
+    max-width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: .85;
+}
+
+#proyecto img {
+    width: 550px;
+}
+
+#proyecto h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#proyecto p {
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 50px;
+}
