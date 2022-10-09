@@ -1,0 +1,58 @@
+#legal {
+    margin: 80px 80px;
+}
+
+#legal h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.web {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#legal h3 {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#legal p {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+@media (max-width:730px){
+
+    #legal h2 {
+        font-size: 22px;
+    }
+    
+    .web {
+        font-size: 22px;
+    }
+    
+    #legal h3 {
+        font-size: 16px;
+    }
+    
+    #legal p {
+        font-size: 14px;
+    }
+    
+}
+
+@media (max-width:400px){
+
+    #legal {
+        margin: 40px 40px;
+    }
+    
+}
