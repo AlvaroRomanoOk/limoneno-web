@@ -5,15 +5,6 @@ LIMONENO Web | limoneno.netlify.app
 
 Una web simple, para acompañar al proyecto de 4° "U" de la DDVS, "LIMONENO"
 
-Organización del proyecto
-====================
-
-* **Tareas/Cambios** para implementar o que han sido implementados recientemene:
-  * Sitio de una sola página
-  * Completar la página de inicio
-  * Añadir formulario de contacto
-  * Añadir formulario de pago
-
 
 Arquitectura/Filosofías
 =========================
