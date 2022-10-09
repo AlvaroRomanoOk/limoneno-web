@@ -4,7 +4,7 @@
 
     <!-- CONFIGURACIONES BÁSICAS -->
 
-    <title>LIMONENO | MARCAS REGISTRADAS</title>
+    <title>LIMONENO | CONTACTO</title>
     <link rel="shortcut icon" type="image/x-icon" href="../assets/favicon.png">
 
     <meta charset="UTF-8">
@@ -22,6 +22,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+
     <!-- CSS -->
 
     <link rel="stylesheet" href="../css/style.css">
@@ -29,7 +31,7 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
 
-    <link rel="stylesheet" href="trademark.css">
+    <link rel="stylesheet" href="contacto.css">
 
 </head>
 <body class="disable-select">
@@ -63,30 +65,24 @@
 
     <section id="content">
 
-        <div id="trademark">
-
-            <h2>MARCA</h2>
-
-            <p>LA MARCA "DDVS" Y SUS LOGOTIPOS PERTENECEN TOTALMENTE AL ESTABLECIMIENTO EDUCATIVO "DR. DALMACIO VÉLEZ SÁRSFIELD".</p>
-
-            <p>QUEDA PROHIBIDO SU USO SIN SU PREVIA AUTORIZACIÓN, ASÍ MISMO NO POSEEMOS POTESTAD PARA PRESTAR ESA AUTORIZACIÓN</p>
-
-            <div class="tm-img-div">
-
-                <img class="img1" src="../assets/ddvs-logo-1.jpg">
-                <img class="img1" src="../assets/ddvs-logo-2.png">
-
+        <section class="contact">
+            <div class="u-wrapper">
+              <div class="contact-content">
+        
+                <form id="form" action="" class="form">
+                  <h3 class="tag"><span>HABLEMOS</span></h3>
+                  <label for="name">Nombre Completo <span>*</span></label>
+                  <input name="name" required type="text" id="name" placeholder="LIMONENO">
+                  <label for="email">Correo electrónico <span>*</span></label>
+                  <input name="email" type="text" id="email" required placeholder="limoneno@limoneno.com">
+                  <label for="message">Mensaje</label>
+                  <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+                  <button type="submit" class="btn primary full">enviar mensaje</button>
+                </form>
+                <a href="mailto:alvaroromanook@gmail.com" id="trucazo"></a>
+              </div>
             </div>
-
-            <p>NO POSEEMOS EL REGISTRO LEGAL DE LA MARCA "LIMONENO" NI SU LOGOTIPO ASÍ QUE, A PARTÍR DEL 31 DE DICIEMBRE DEL 2022 LA MARCA "LIMONENO" Y SU LOGOTIPO QUEDAN TOTAL Y PERMANENTEMENTE A DOMINIO PÚBLICO. PREVIO A ESA FECHA NOS ADJUDICAMOS EL USO DE LA MISMA EN CARÁCTER DE "TM" Y "SM" PERO, AÚN ASÍ, SE PUEDE UTILIZAR LA MARCA "LIMONENO" Y SU LOGOTIPO, PERO NO SE DEBE DE VINCULAR NI DIRECTA NI INDIRECTAMENTE SU USO CON EL PROYECTO "LIMONENO", ADEMÁS DE QUE SE DEBERÁ ACLARAR LA PROCEDENCIA ORIGINAL DE LA MARCA "LIMONENO" Y SU LOGOTIPO.</p>
-
-            <div class="tm-img-div">
-
-                <img class="img2" src="../assets/logo.png">
-
-            </div>
-
-        </div>
+          </section>
 
     </section>
 
@@ -118,6 +114,7 @@
 
     <script src="../js/QuitarAnclaUrl.js"></script>
     <script src="../js/loader.js"></script>
+    <script src="../js/contacto.js"></script>
 
 </body>
 </html>
