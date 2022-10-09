@@ -1,0 +1,58 @@
+#producto {
+    display: flex;
+    padding: 8% 8%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    justify-content: center;
+    align-items: center;
+}
+
+#producto1-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#producto2-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#producto h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#producto p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#producto a{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #fff;
+    background: #332863;
+    width: 90px;
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+#producto a:hover{
+    background: crimson;
+}
+
+#producto img {
+    width: 400px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
