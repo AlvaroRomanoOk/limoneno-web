@@ -30,7 +30,7 @@
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 32px;
 }
 
 #producto a:hover{
@@ -56,10 +56,18 @@
 
     #producto1-div {
         margin: 8% 8%;
+        background-image: url(../assets/producto1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: color-dodge;
     }
     
     #producto2-div {
         margin: 8% 8%;
+        background-image: url(../assets/producto1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: color-dodge;
     }
 
     .m1 {

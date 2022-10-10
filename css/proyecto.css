@@ -1,5 +1,5 @@
 #proyecto {
-    background-color: #273445;
+    background-color: #252525;
     color: #FFF;
     padding: 80px 10em;
     display: block;
@@ -11,11 +11,10 @@
 }
 
 #particles-js {
-    height: 1175px;
+    height: 1238px;
     max-width: 100%;
     position: absolute;
     z-index: -1;
-    opacity: .85;
 }
 
 #proyecto img {
@@ -31,96 +30,65 @@
 }
 
 #proyecto p {
+    color: #FFF;
     margin-left: 4%;
     margin-right: 4%;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: 44px;
 }
 
-@media (max-width:1010px){
-
-    #particles-js {
-        display: none;
-    }
-
-    #proyecto img {
-        width: 350px;
+@media (max-width:890px){
+    #proyecto {
+        padding: 80px 4em;
     }
 
     #proyecto h2 {
-        font-size: 38px;
+        font-size: 40px;
     }
-    
+
+    #proyecto img {
+        width: 300px;
+    }
+
     #proyecto p {
-        margin-left: 4%;
-        margin-right: 4%;
-        font-size: 16px;
-        line-height: 30px;
+        font-size: 18px;
+        line-height: 40px;
     }
 }
 
-@media (max-width:750px){
+@media (max-width:600px){
 
-    #proyecto {
-        padding: 80px 40px;
+    #proyecto h2 {
+        font-size: 34px;
     }
 
-    #particles-js {
-        display: none;
+    #proyecto img {
+        width: 270px;
     }
 
     #proyecto p {
         font-size: 16px;
-        line-height: 30px;
     }
 }
 
-@media (max-width:750px){
+@media (max-width:600px){
 
     #proyecto {
-        padding: 80px 30px;
-    }
-
-    #particles-js {
-        display: none;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 80px;
+        padding-left: 2%;
+        padding-right: 2%;
     }
 
     #proyecto img {
-        width: 250px;
-    }
-
-    #proyecto h2 {
-        font-size: 30px;
-    }
-
-    #proyecto p {
-        font-size: 16px;
-        line-height: 20px;
+        margin-top: 80px;
     }
 }
 
-@media (max-width:370px){
-
-    #proyecto {
-        padding: 80px 10px;
-    }
-
-    #particles-js {
-        display: none;
-    }
-
-    #proyecto img {
-        width: 200px;
-    }
-
-    #proyecto h2 {
-        font-size: 26px;
-    }
-
-    #proyecto p {
-        font-size: 14px;
-        line-height: 18px;
-    }
+#particles-js {
+    margin: 0;
+    padding: 0;
 }
