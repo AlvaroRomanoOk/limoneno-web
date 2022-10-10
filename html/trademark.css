@@ -38,3 +38,36 @@
     width: 300px;
     margin-top: 30px;
 }
+
+@media (max-width:730px){
+    .tm-img-div {
+        flex-direction: column;
+    }
+
+    .img1 {
+        width: 300px;
+        margin-top: 30px;
+    }
+
+    .img11 {
+        margin: 0;
+        margin-top: 30px;
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width:450px){
+
+    .img1 {
+        width: 200px;
+    }
+
+    .img2 {
+        width: 200px;
+    }
+
+    #trademark p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
