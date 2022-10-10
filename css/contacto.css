@@ -1,0 +1,70 @@
+#contacto-i-div-img {
+    position: absolute;
+    z-index: -1;
+    opacity: .85;
+}
+
+#contacto-i {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 99;
+    min-height: 570px;
+    width: 1200px;
+    border-radius: 2%;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+#contacto-i-div {
+    margin: 70px;
+}
+
+#contacto-i img {
+    width: 100%;
+    border-radius: 2%;
+}
+
+#contacto-i-div {
+    width: 40%;
+}
+
+#contacto-i h2 {
+    font-size: 46px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.saludo {
+    font-style: normal;
+    color: crimson;
+}
+
+#contacto-i p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+#contacto-i a{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #fff;
+    background: #332863;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+#contacto-i a:hover{
+    background: crimson;
+}
