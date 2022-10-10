@@ -3,7 +3,7 @@
     background-color: transparent;
     align-items: center;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     padding-top: 50px;
 }
 
@@ -57,4 +57,51 @@
 
 #ac:hover{
     background: crimson;
+}
+
+@media (max-width:1200px){   
+    #comprar-div {
+        min-height: 200px;
+        max-width: 800px;
+    }
+
+    #comprar-div h2 {
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #comprar-div p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #ac{
+        font-size: 12px;
+        width: 70px;
+        padding: 10px 0;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width:540px){
+    #comprar-div h2 {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    
+    #comprar-div p {
+        font-size: 12px;
+    }
+
+    #ac{
+        font-size: 10px;
+        width: 65px;
+        padding: 6px 0;
+        margin-bottom: 20px;
+    }
 }
