@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F2F2F2;
+    overflow-x: hidden;
+}
+
 .disable-select {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -11,10 +20,6 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 a {

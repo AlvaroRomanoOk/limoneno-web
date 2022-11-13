@@ -1,0 +1,161 @@
+#inicio {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+#inicio-text {
+    width: 50%;
+    text-align: left;
+    padding: 2%;
+}
+
+#inicio-text h2 {
+    font-family: Segoe UI,SegoeUI,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    text-align: left;
+    line-height: 40px;
+    font-size: 34px;
+}
+
+#inicio-text a {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #fff;
+    background: #332863;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+#inicio-text a:hover {
+    color: #FFF;
+    background: crimson;
+}
+
+#inicio-img {
+    width: 50%;
+    text-align: right;
+    padding: 2%;
+}
+
+#inicio img {
+    width: 400px;
+}
+
+@media (max-width:972px){
+    #inicio-text h2 {
+        font-size: 28px;
+    }
+
+    #inicio-text a {
+        font-size: 12px;
+        width: 80px;
+        margin-top: 10px;
+        padding: 12px 0;
+    }
+
+    #inicio img {
+        width: 300px;
+    }
+}
+
+@media (max-width:801px){
+    #inicio-text h2 {
+        font-size: 24px;
+    }
+
+    #inicio img {
+        width: 250px;
+    }
+}
+
+@media (max-width:714px){
+    #inicio {
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+    #inicio-text {
+        padding: 0;
+    }
+
+    #inicio-img {
+        text-align: center;
+        padding: 0;
+    }
+
+    #inicio-text h2 {
+        text-align: center;
+    }
+    
+    #inicio-text a {
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    #inicio img {
+        width: 250px;
+    }
+}
+
+@media (max-width:471px){
+    #inicio-text h2 {
+        font-size: 20px;
+    }
+
+    #inicio img {
+        width: 200px;
+    }
+}
+
+@media (max-width:401px){
+    #inicio {
+        padding: 0;
+        margin: 0;
+    }
+
+    #inicio-text {
+        padding: 0;
+        margin: 0;
+    }
+
+    #inicio-img {
+        padding: 0;
+        margin: 0;
+    }
+
+    #inicio-text h2 {
+        font-size: 18px;
+    }
+
+    #inicio img {
+        width: 160px;
+    }
+}
+
+@media (max-width:360px){
+    #inicio-text h2 {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    #inicio-text a {
+        font-size: 8px;
+        width: 60px;
+        margin-top: 10px;
+        padding: 10px 0;
+    }
+
+    #inicio img {
+        width: 130px;
+    }
+}

@@ -1,48 +1,36 @@
 header {
     display: flex;
-    min-width: 100%;
-    min-height: 70px;
-    padding-left: 6%;
-    padding-right: 6%;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
+    min-height: 60px;
+    line-height: 60px;
+    padding-left: 8%;
+    padding-right: 8%;
     background-color: #FFF;
-    line-height: 70px;
-    box-shadow: 0px 4px 8px gray;
 }
 
-header div {
-    display:flex;
-    justify-content: space-between;
-}
-
-header h1 a {
-    display: table-cell;
+#header-logos {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
 }
 
-header h1 a img {
-    display: table-cell;
-    width: auto;
-    height: 60px;
+#header-logos img {
+    width: 160px;
 }
 
 header nav {
-    word-spacing: 12px;
-}
-
-header a {
-    word-spacing: 0;
+    word-spacing: 8px;
+    margin-top: 4px;
 }
 
 header nav a {
-    font-family: 'Gemunu Libre', sans-serif;
-    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
     color: #000;
-}
-
-header nav a {
+    word-spacing: 0px;
     text-decoration: none;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
@@ -54,47 +42,43 @@ header nav a {
 header nav a:hover, a:focus {
     background-size: 100% 2px;
     color: #0098da;
+    transition: .3s;
 }
 
-@media (max-width:880px){
+@media (max-width:939px){
     header {
         flex-direction: column;
+        padding-top: 20px;
     }
 
-    header img {
-        margin-top: 30px;
-    }
 }
 
-@media (max-width:480px){
-
-    header h1 a img {
-        height: 40px;
+@media (max-width:444px){
+    #header-logos img {
+        width: 120px;
     }
 
     header nav a {
-        font-size: 16px;
+        font-size: 12px
     }
 }
 
-@media (max-width:336px){
-
-    header h1 a img {
-        height: 35px;
+@media (max-width:344px){
+    #header-logos img {
+        width: 100px;
     }
 
     header nav a {
-        font-size: 14px;
+        font-size: 10px
     }
 }
 
-@media (max-width:301px){
-
-    header h1 a img {
-        height: 30px;
+@media (max-width:294px){
+    #header-logos img {
+        width: 80px;
     }
 
     header nav a {
-        font-size: 12px;
+        font-size: 8px
     }
 }

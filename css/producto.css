@@ -1,100 +1,125 @@
-#producto {
+#ṕroducto {
     display: flex;
-    padding: 8% 8%;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-#producto1-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#producto2-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#producto h2 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 30px;
-}
-
-#producto p {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-}
-
-#producto a:hover{
-    background: crimson;
+    height: 100vh;
+    margin-top: 50px;
 }
 
 #producto img {
-    width: 400px;
-    padding-left: 4%;
-    padding-right: 4%;
+    width: 300px;
 }
 
-@media (max-width:900px){
-    #producto img {
-        display: none;
+#producto-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    padding-right: 10%;
+    padding-left: 14%;
+    margin-top: 160px;
+}
+
+#producto-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    padding-right: 14%;
+    padding-left: 10%;
+    margin-bottom: 100px;
+}
+
+#producto-i {
+    width: 30%;
+    text-align: center;
+}
+
+#producto-t {
+    width: 70%;
+}
+
+#producto-t p {
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+#producto-t h2 {
+    font-family: Segoe UI,SegoeUI,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: left;
+    line-height: 40px;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+@media (max-width:1225px){
+    #producto-1 {
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 0;
+        padding-bottom: 50px;
+    }
+    
+    #producto-2 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+        padding-bottom: 50px;
     }
 
-    #producto {
-        align-items: center;
-        justify-content: center;
+    #producto-t p {
+        text-align: justify;
+    }
+
+    #producto-t h2 {
         text-align: center;
     }
 
-    #producto1-div {
-        margin: 8% 8%;
-        background-image: url(../assets/producto1.jpg);
-        background-size: cover;
-        background-position: center;
-        background-blend-mode: color-dodge;
+    #producto-i {
+        width: 85%;
+        text-align: center;
     }
     
-    #producto2-div {
-        margin: 8% 8%;
-        background-image: url(../assets/producto1.jpg);
-        background-size: cover;
-        background-position: center;
-        background-blend-mode: color-dodge;
-    }
-
-    .m1 {
-        margin-bottom: 30px;
+    #producto-t {
+        width: 85%;
     }
 }
 
-@media (max-width:600px){
-    
-
-    #producto h2 {
-        font-size: 26px;
+@media (max-width:450px){
+    #producto img {
+        width: 200px;
     }
 
-    #producto p {
+    #producto-t p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    #producto-t h2 {
         font-size: 20px;
+        line-height: 36px;
     }
 }
 
-@media (max-width:400px){
-    
-
-    #producto h2 {
-        font-size: 23px;
+@media (max-width:305px){
+    #producto img {
+        width: 200px;
     }
 
-    #producto p {
+    #producto-t p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    #producto-t h2 {
         font-size: 18px;
+        line-height: 34px;
     }
 }
